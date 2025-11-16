@@ -185,9 +185,6 @@ class FinTrustHeatmapApp(QMainWindow):
         
         self.method_group = QButtonGroup()
         methods = [
-            ("Min-Max нормализация", "min_max_normalized"),
-            ("Простое среднее", "simple_average"),
-            ("PCA", "pca"),
             ("Методика ЦБ РФ", "cbr_method")
         ]
         

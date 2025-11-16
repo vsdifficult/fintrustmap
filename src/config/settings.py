@@ -39,9 +39,6 @@ COLORMAPS = [
 
 # Методы расчёта индекса
 CALCULATION_METHODS = {
-    'min_max_normalized': 'Min-Max нормализация',
-    'simple_average': 'Простое среднее',
-    'pca': 'PCA',
     'cbr_method': 'Методика ЦБ РФ'
 }
 
